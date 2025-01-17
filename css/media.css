@@ -15,6 +15,20 @@
     .feature-header{
         font-size: 30px;
     }
+    /* folio section */
+    #folio {
+        flex-direction: column;
+    }
+    .folio-item-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .folio-item {
+        margin-top: 24px;
+    }
+    .folio-right .img-item {
+        margin-left: 0;
+    }
 }
 
 
@@ -46,6 +60,20 @@
         margin-right:0;
         margin-bottom: 20px;
     }
+    #folio {
+        flex-direction: column;
+    }
+    .common_title {
+        font-size: 1.8rem;
+    }
+    .folio-item {
+        margin-top: 24px;
+    }
+    .folio-right .img-item {
+        margin-left: 0;
+    }
+    
+      
   
     
 }
@@ -86,5 +114,18 @@
         gap: 24px;
         margin-right:0;
         margin-bottom: 20px;
+    }
+    /* folio section */
+    #folio {
+        flex-direction: column;
+    }
+    .common_title {
+        font-size: 1.8rem;
+    }
+    .folio-item {
+        margin-top: 24px;
+    }
+    .folio-right .img-item {
+        margin-left: 0;
     }
 }
