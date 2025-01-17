@@ -170,6 +170,7 @@ nav ul li:last-child{
 /* folio section start */
 #folio{
     margin-top: 170px;
+    margin-bottom: 125px;
    display: flex;
    justify-content: center;
    gap: 145px;
@@ -237,4 +238,29 @@ nav ul li:last-child{
     display: inline-block;
     margin-top: -100px;
     margin-left: -80px;
+}
+/* folio section */
+.facts-heading p{
+    margin-top: 24px;
+}
+.facts-heading{
+    margin-bottom: 6rem;
+}
+.facts-item{
+    padding: 45px 36px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+.facts-item img{
+    width: 45px;
+    height: 45px;
+}
+.facts-wrapper h4{
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.facts-wrapper{
+    display: flex;
+    gap: 124px;
 }

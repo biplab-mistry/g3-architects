@@ -29,6 +29,13 @@
     .folio-right .img-item {
         margin-left: 0;
     }
+    /* fact section */
+    .facts-wrapper {
+        gap: 24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+      justify-content: center;
+    }
 }
 
 
@@ -72,7 +79,13 @@
     .folio-right .img-item {
         margin-left: 0;
     }
-    
+    /* fact section */
+    .facts-wrapper {
+        gap: 24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+      justify-content: center;
+    }
       
   
     
@@ -127,5 +140,10 @@
     }
     .folio-right .img-item {
         margin-left: 0;
+    }
+    /* facts section */
+    .facts-wrapper {
+        gap: 24px;
+        flex-direction: column;
     }
 }
