@@ -135,3 +135,35 @@ nav ul li:last-child{
     border-radius: 8px;
     margin-top: 4rem;
 }
+/* feature section start */
+#feature{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.feature-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+  margin-right: 4.5rem;
+}
+.feature-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.feature-content p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.feature{
+    color: #FF900E;
+    margin-top: 15px;
+    display: inline-block;
+}
+.feature-header{
+    font-family: "Work Sans", serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}

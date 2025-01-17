@@ -8,7 +8,15 @@
         font-size: 15px;
         padding: 15px 20px;
     }
+    /* feature section */
+    .common_title {
+        font-size: 1.8rem;
+    }
+    .feature-header{
+        font-size: 30px;
+    }
 }
+
 
 /* for small device */
 @media (min-width:576px) and (max-width:767.98px) {
@@ -27,6 +35,18 @@
         font-size: 15px;
         padding: 15px 20px;
     }
+    /* feature section */
+    #feature {
+        flex-direction: column;
+    }
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+  
     
 }
 
@@ -55,5 +75,16 @@
     .btn {
         font-size: 15px;
         padding: 12px 12px;
+    }
+      /* feature section */
+      #feature {
+        flex-direction: column;
+    }
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 24px;
+        margin-right:0;
+        margin-bottom: 20px;
     }
 }
