@@ -1,0 +1,59 @@
+/* for medium device */
+@media (min-width:768px) and (max-width:991.98px) {
+    /* banner part start */
+    .banner-content p {
+        padding: 0 7px;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+}
+
+/* for small device */
+@media (min-width:576px) and (max-width:767.98px) {
+    /* navbar part start */
+    .common_title {
+        font-size: 0.8rem;
+    }
+    .banner-content h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .banner-content p {
+        padding: 0;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* for extra small device */
+@media  (max-width:575.98px) {
+    /* navbar part */
+    header nav{
+        flex-direction: column;
+        row-gap: 24px;
+    }   
+    .banner-content h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    } 
+    .banner-content p {
+        padding: 0;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 12px 12px;
+    }
+}
