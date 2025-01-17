@@ -1,94 +1,144 @@
+/* for large device */
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .bottom-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
+
+
 /* for medium device */
 @media (min-width:768px) and (max-width:991.98px) {
+
     /* banner part start */
     .banner-content p {
         padding: 0 7px;
     }
+
     .btn {
         font-size: 15px;
         padding: 15px 20px;
     }
+
     /* feature section */
     .common_title {
         font-size: 1.8rem;
     }
-    .feature-header{
+
+    .feature-header {
         font-size: 30px;
     }
+
     /* folio section */
     #folio {
         flex-direction: column;
     }
+
     .folio-item-wrapper {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+
     .folio-item {
         margin-top: 24px;
     }
+
     .folio-right .img-item {
         margin-left: 0;
     }
+
     /* fact section */
     .facts-wrapper {
         gap: 24px;
         flex-direction: row;
         flex-wrap: wrap;
-      justify-content: center;
+        justify-content: center;
+    }
+
+    /* bottom section */
+    .bottom-img {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
 
 /* for small device */
 @media (min-width:576px) and (max-width:767.98px) {
+
     /* navbar part start */
     .common_title {
         font-size: 0.8rem;
     }
+
     .banner-content h1 {
         font-size: 3rem;
         line-height: 3rem;
     }
+
     .banner-content p {
         padding: 0;
     }
+
     .btn {
         font-size: 15px;
         padding: 15px 20px;
     }
+
     /* feature section */
     #feature {
         flex-direction: column;
     }
+
     .feature-img {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 24px;
-        margin-right:0;
+        margin-right: 0;
         margin-bottom: 20px;
     }
+
     #folio {
         flex-direction: column;
     }
+
     .common_title {
         font-size: 1.8rem;
     }
+
     .folio-item {
         margin-top: 24px;
     }
+
     .folio-right .img-item {
         margin-left: 0;
     }
+
     /* fact section */
     .facts-wrapper {
         gap: 24px;
         flex-direction: row;
         flex-wrap: wrap;
-      justify-content: center;
+        justify-content: center;
     }
-      
-  
-    
+
+    /* bottom section */
+    .bottom-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* for footer section */
+    footer {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+
 }
 
 
@@ -100,50 +150,77 @@
 
 
 /* for extra small device */
-@media  (max-width:575.98px) {
+@media (max-width:575.98px) {
+
     /* navbar part */
-    header nav{
+    header nav {
         flex-direction: column;
         row-gap: 24px;
-    }   
+    }
+
     .banner-content h1 {
         font-size: 2rem;
         line-height: 2rem;
-    } 
+    }
+
     .banner-content p {
         padding: 0;
     }
+
     .btn {
         font-size: 15px;
         padding: 12px 12px;
     }
-      /* feature section */
-      #feature {
+
+    /* feature section */
+    #feature {
         flex-direction: column;
     }
+
     .feature-img {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 24px;
-        margin-right:0;
+        margin-right: 0;
         margin-bottom: 20px;
     }
+
     /* folio section */
     #folio {
         flex-direction: column;
     }
+
     .common_title {
         font-size: 1.8rem;
     }
+
     .folio-item {
         margin-top: 24px;
     }
+
     .folio-right .img-item {
         margin-left: 0;
     }
+
     /* facts section */
     .facts-wrapper {
         gap: 24px;
         flex-direction: column;
+    }
+
+    /* bottom section */
+    .bottom-img {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    /* footer section */
+    footer {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    footer p {
+        font-size: 19px;
     }
 }

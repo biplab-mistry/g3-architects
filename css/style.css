@@ -264,3 +264,37 @@ nav ul li:last-child{
     display: flex;
     gap: 124px;
 }
+/* Bottom section */
+#bottom{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+#bottom p{
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.bottom-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer section started */
+footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 210px;
+    text-align: center;
+}
+footer p{
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
