@@ -1,0 +1,136 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* shared css start  here */
+.btn{
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 23px;
+    background-color: #FF900E;
+}
+.dark1 {
+    color: #131313;
+}
+
+.dark2 {
+    color: #424242;
+}
+
+.dark3 {
+    color: #727272;
+}
+
+.white {
+    color: #FFF;
+}
+
+.primary_bg {
+    background-color: #FF900E;
+}
+
+.secondary_bg {
+    background-color: #FFF4E7;
+}
+
+.banner_bg {
+    background-color: rgba(255, 143, 14, 0.10);
+}
+
+.common_para {
+    font-family: "Work Sans", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: #727272;
+}
+.common_title{
+    font-family: "Work Sans", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* navbar css start */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3.12rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    font-family: "Work Sans", serif;
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #131313;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+/* banner part start */
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-family: "Work Sans", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-top: 115px;
+
+}
+.banner-content p{
+    padding: 0 233px;
+    margin: 2rem 0;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 4rem;
+}
